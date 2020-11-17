@@ -1,27 +1,30 @@
 public class Variable {
 	public static void main(String[] args) {
-	/*
-		Intel® Core™ i5-4440 3.10 GHz
-		GeForce® GTX 960 4gb
-		8gb RAM memory
-	*/
+		byte hddSize = 1;
+		short brandModifier = 5;
+		int ssdSize = 120;
+		long series = 900L;
+		float processorSpeed = 3.10F;
+		double performance = 2.3D;
+		char osVersion = '\u0037';
+		boolean acceleration = false;
 
-		byte byte1 = 5;
-		short short1 = 4440;
-		int int1 = 960;
-		long long1 = 4L;
-		float float1 = 3.10F;
-		double double1 = 2.5D;
-		char char1 = '\u003F';
-		boolean boolean1 = true;
-
-		System.out.println(byte1);
-		System.out.println(short1);
-		System.out.println(int1);
-		System.out.println(long1);
-		System.out.println(float1);
-		System.out.println(double1);
-		System.out.println(char1);
-		System.out.println(boolean1);
+		System.out.println(hddSize);
+		System.out.println(brandModifier);
+		System.out.println(ssdSize);
+		System.out.println(series);
+		System.out.println(processorSpeed);
+		System.out.println(performance);
+		System.out.println(osVersion);
+		System.out.println(acceleration);
 	}
 }
+
+/*
+Intel® Core™ i5-4440 3.10 GHz
+GeForce® GTX 960 4gb
+8gb RAM memory
+HDD HP 1 TB
+SSD Kingston HyperX Fury 120GB
+Windows 7
+*/
