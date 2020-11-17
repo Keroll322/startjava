@@ -13,16 +13,16 @@ public class Cycle {
 		System.out.println();
 
 		int s = 10;
-        int sum = 0;
-        do {
-            if(s % 2 != 0) {
-                sum = sum + s;
-                s++;
-            } else {
-                s++;
-            }
-        }
-        while (s <= 20);
-        System.out.println(sum);
+		int sum = 0;
+		do {
+			if(s % 2 != 0) {
+				sum = sum + s;
+				s++;
+			} else {
+				s++;
+			}
+		}
+		while (s <= 20);
+		System.out.println(sum);
 	}
 }
