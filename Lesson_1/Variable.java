@@ -6,23 +6,22 @@ public class Variable {
 		8gb RAM memory
 	*/
 
-	byte b = 5;
-	short s = 4440;
-	int i = 960;
-	long l = 4L;
-	float f = 3.10F;
-	double d = 2.5D;
-	char c = '\u003F';
-	boolean b1 = true;
+		byte byte1 = 5;
+		short short1 = 4440;
+		int int1 = 960;
+		long long1 = 4L;
+		float float1 = 3.10F;
+		double double1 = 2.5D;
+		char char1 = '\u003F';
+		boolean boolean1 = true;
 
-	System.out.println(b);
-	System.out.println(s);
-	System.out.println(i);
-	System.out.println(l);
-	System.out.println(f);
-	System.out.println(d);
-	System.out.println(c);
-	System.out.println(b1);
-
+		System.out.println(byte1);
+		System.out.println(short1);
+		System.out.println(int1);
+		System.out.println(long1);
+		System.out.println(float1);
+		System.out.println(double1);
+		System.out.println(char1);
+		System.out.println(boolean1);
 	}
 }
