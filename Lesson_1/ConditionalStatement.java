@@ -21,7 +21,7 @@ public class ConditionalStatement {
 			System.out.println("Ваш рост выше среднего");
 		}
 
-		char firstLetterName = '\u004D';
+		char firstLetterName = 'M';
 		if(firstLetterName == 'M') {
 			System.out.println("Ваше имя начинается на M");
 		} else if(firstLetterName == 'I') {
