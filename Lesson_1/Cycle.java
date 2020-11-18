@@ -1,28 +1,29 @@
 public class Cycle {
 	public static void main(String[] args) {
-		for(int i = 0;i <= 20;i++) {
+		for(int i = 0; i <= 20; i++) {
 			System.out.println(i);
 		}
 		System.out.println();
 
-		int k = 6;
-		while(k >= -6) {
-			System.out.println(k);
-			k -= 2;
+		int counter = 6;
+		while(counter >= -6) {
+			System.out.println(counter);
+			counter -= 2;
 		}
 		System.out.println();
 
 		int s = 10;
 		int sum = 0;
+		int k = 10;
 		do {
 			if(s % 2 != 0) {
-				sum = sum + s;
+				sum += s;
 				s++;
 			} else {
-				s++;
+				k++;
+				s = k;
 			}
-		}
-		while (s <= 20);
-		System.out.println(sum);
+		} while (s <= 20);
+			System.out.println(sum);
 	}
 }
