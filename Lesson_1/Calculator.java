@@ -5,23 +5,19 @@ public class Calculator {
 		int result = 1;
 		char mathOperation = '^';
 		if(mathOperation == '+') {
-			result = a + b;
-			System.out.println(result);
+			System.out.println(a + b);
 		} else if(mathOperation == '-') {
-			result = a - b;
-			System.out.println(result);
+			System.out.println(a - b);
 		} else if(mathOperation == '/') {
-			result = a / b;
-			System.out.println(result);
+			System.out.println(a / b);
 		} else if(mathOperation == '*') {
-			result = a * b;
-			System.out.println(result);
+			System.out.println(a * b);
 		} else if(mathOperation == '%') {
-			result = a % b;
-			System.out.println(result);
+			System.out.println(a % b);
 		} else if(mathOperation == '^') {
-			for(int i = 1; i <= b; i++)
+			for(int i = 1; i <= b; i++) {
 				result *= a;
+			}
 			System.out.println(result);
 		}
 	}

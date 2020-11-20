@@ -1,6 +1,6 @@
 public class MyFirstGame {
 	public static void main(String[] args) {
-		int hiddenNumber =65;
+		int hiddenNumber = 65;
 		int enterNumber = 57;
 		do {
 			if (enterNumber > hiddenNumber) {
