@@ -1,25 +1,27 @@
 public class Calculator {
 	public static void main(String[] args) {
 		int a = 2;
-		int b = 3;
-		int result;
-		if(a == 4 & b == 5) {
+		int b = 8;
+		int result = 1;
+		char mathOperation = '^';
+		if(mathOperation == '+') {
 			result = a + b;
 			System.out.println(result);
-		} else if(a == 8 & b == 6) {
+		} else if(mathOperation == '-') {
 			result = a - b;
 			System.out.println(result);
-		} else if(a == 9 & b == 3) {
+		} else if(mathOperation == '/') {
 			result = a / b;
 			System.out.println(result);
-		} else if(a == 4 & b == 3) {
+		} else if(mathOperation == '*') {
 			result = a * b;
 			System.out.println(result);
-		} else if(a == 6 & b == 4) {
+		} else if(mathOperation == '%') {
 			result = a % b;
 			System.out.println(result);
-		} else if(a == 2) {
-			result = a *= a;
+		} else if(mathOperation == '^') {
+			for(int i = 1; i <= b; i++)
+				result *= a;
 			System.out.println(result);
 		}
 	}
