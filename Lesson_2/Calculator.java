@@ -15,7 +15,7 @@ public class Calculator {
 		this.mathOperation = mathOperation;
 	}
 
-	public int calcul() {
+	public int calculate() {
 		switch(mathOperation) {
 			case '+':
 				System.out.println(firstNumber + secondNumber);

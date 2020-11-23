@@ -12,66 +12,67 @@ public class Jaeger {
 		this.name = name;
 	}
 
-	public void setMark(String mark) {
-		this.mark = mark;
-	}
-
-	public void setOrigin(String origin) {
-		this.origin = origin;
-	}
-
-	public void setHeight(double height) {
-		this.height = height;
-	}
-
-	public void setWeight(double weight) {
-		this.weight = weight;
-	}
-
-	public void setSpeed(int speed) {
-		this.speed = speed;
-	}
-
-	public void setStrenght(int strenght) {
-		this.strenght = strenght;
-	}
-
-	public void setArmor(int armor) {
-		this.armor = armor;
-	}
-
 	public String getName() {
 		return name;
+	}
+
+	public void setMark(String mark) {
+		this.mark = mark;
 	}
 
 	public String getMark() {
 		return mark;
 	}
 
+	public void setOrigin(String origin) {
+		this.origin = origin;
+	}
+
 	public String getOrigin() {
 		return origin;
 	}
 
-	public double getHeight() {
+	public void setHeight(double height) {
+		this.height = height;
+	}
+
+		public double getHeight() {
 		return height;
+	}
+
+	public void setWeight(double weight) {
+		this.weight = weight;
 	}
 
 	public double getWeight() {
 		return weight;
 	}
 
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+
 	public int getSpeed() {
 		return speed;
+	}
+
+	public void setStrenght(int strenght) {
+		this.strenght = strenght;
 	}
 
 	public int getStrenght() {
 		return strenght;
 	}
 
+	public void setArmor(int armor) {
+		this.armor = armor;
+	}
+
 	public int getArmor() {
 		return armor;
 	}
 
+	
 	public void run() {
 		System.out.println("Вы бежите");
 	}
