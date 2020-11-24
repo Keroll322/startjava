@@ -1,3 +1,5 @@
+package com.startjava.lesson_1.variable;
+
 /*
 Intel® Core™ i5-4440 3.10 GHz
 GeForce® GTX 960 4gb
