@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BubbleArray {
     public static void main(String[] args) {
-        int[] array = {5, 45, 73, 19, 43, 21};
+        int[] array = {5, 45, 73, 19, 43, 22};
         boolean isSorted = false;
         int buffer;
         while(!isSorted) {

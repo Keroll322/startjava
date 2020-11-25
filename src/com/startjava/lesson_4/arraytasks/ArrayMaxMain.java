@@ -23,6 +23,6 @@ public class ArrayMaxMain {
             }
         }
 
-        System.out.println("Максимальное числ = " + max);
+        System.out.println("Максимальное число = " + max);
     }
 }
